@@ -1,0 +1,29 @@
+@import './button.css';
+@import './login.css';
+@import './registro.css';
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    display: grid;
+    height:100vh;
+    place-content: center;
+    background-image: url('../images/37_SpiritShop_Signin-Modal_Dark.png');
+
+}
+a{
+    text-decoration: none;
+}
+
+.main-registro{
+	display: grid;
+	overflow: auto;
+    max-height: 100%;
+    place-content: center;
+    background-image: url('../images/37_SpiritShop_Signin-Modal_Dark.png');
+    min-height:100vh;
+
+}
